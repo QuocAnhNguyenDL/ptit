@@ -288,6 +288,14 @@ module top_tb;
      task state_IDLE(
           bit        start         = 0);
           value(
+               .rst_val            ($urandom),
+               .start_val          ($urandom),
+               .done_money_val     ($urandom),
+               .continue_buy_val   ($urandom),
+               .cancel_val         ($urandom),
+               .item_val           ($urandom),
+               .money_val          ($urandom),
+
                .start_val(start)
           );
      endtask;
@@ -297,6 +305,13 @@ module top_tb;
           );
 
           value(
+               .rst_val            ($urandom),
+               .start_val          ($urandom),
+               .done_money_val     ($urandom),
+               .continue_buy_val   ($urandom),
+               .cancel_val         ($urandom),
+               .money_val          ($urandom),
+
                .item_val(item) 
           );
      endtask;
@@ -311,6 +326,11 @@ module top_tb;
           );
 
           value(
+               .rst_val            ($urandom),
+               .start_val          ($urandom),
+               .continue_buy_val   ($urandom),
+               .item_val           ($urandom),
+
                .done_money_val(done_money),
                .cancel_val(cancel),
                .money_val(money)
@@ -327,6 +347,13 @@ module top_tb;
           );
 
           value(
+               .rst_val            ($urandom),
+               .start_val          ($urandom),
+               .done_money_val     ($urandom),
+               .continue_buy_val   ($urandom),
+               .item_val           ($urandom),
+               .money_val          ($urandom),
+
                .cancel_val(cancel)
           );
      endtask;
@@ -336,6 +363,13 @@ module top_tb;
           );
 
           value(
+               .rst_val            ($urandom),
+               .start_val          ($urandom),
+               .done_money_val     ($urandom),
+               .cancel_val         ($urandom),
+               .item_val           ($urandom),
+               .money_val          ($urandom),
+
                .continue_buy_val(continue_buy)
           );
      endtask;

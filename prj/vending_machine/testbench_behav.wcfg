@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="top_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="171.988 ns"></ZoomEndTime>
+      <Cursor1Time time="59.877 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="163"></NameColumnWidth>
+      <ValueColumnWidth column_width="203"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="14" />
+   <wvobject fp_name="/top_tb/DUT/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/reset_n" type="logic">
+      <obj_property name="ElementShortName">reset_n</obj_property>
+      <obj_property name="ObjectShortName">reset_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUT/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUT/item_in" type="array">
+      <obj_property name="ElementShortName">item_in[1:0]</obj_property>
+      <obj_property name="ObjectShortName">item_in[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUT/done_money" type="logic">
+      <obj_property name="ElementShortName">done_money</obj_property>
+      <obj_property name="ObjectShortName">done_money</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUT/continue_buy" type="logic">
+      <obj_property name="ElementShortName">continue_buy</obj_property>
+      <obj_property name="ObjectShortName">continue_buy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUT/cancel" type="logic">
+      <obj_property name="ElementShortName">cancel</obj_property>
+      <obj_property name="ObjectShortName">cancel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUT/end_trans" type="logic">
+      <obj_property name="ElementShortName">end_trans</obj_property>
+      <obj_property name="ObjectShortName">end_trans</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUT/sum_money" type="array">
+      <obj_property name="ElementShortName">sum_money[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sum_money[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUT/price" type="array">
+      <obj_property name="ElementShortName">price[7:0]</obj_property>
+      <obj_property name="ObjectShortName">price[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider280">
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUT/U1/state" type="array">
+      <obj_property name="ElementShortName">state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUT/U2/state" type="array">
+      <obj_property name="ElementShortName">state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUT/state" type="array">
+      <obj_property name="ElementShortName">state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+   </wvobject>
+</wave_config>
